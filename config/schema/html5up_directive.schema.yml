@@ -1,0 +1,5 @@
+# Schema for the configuration files of the html5up_directive theme.
+
+html5up_directive.settings:
+  type: theme_settings
+  label: 'HTML5 UP Directive settings'

@@ -1,0 +1,32 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Bartik's theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+{% block content %}
+{% if site_logo %}
+  <a href="{{ url('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo" style="border:none; outline:none;">
+    <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+  </a>
+{% endif %}
+{% if site_name or site_slogan %}
+{% if site_name %}
+  <h1 class="site-name">
+    <a href="{{ url('<front>') }}" title="{{ 'Home'|t }}" rel="home" style="border:none; outline:none;">{{ site_name }}</a>
+  </h1>
+{% endif %}
+{% if site_slogan %}
+<p class="site-slogan">{{ site_slogan }}</p>
+{% endif %}
+{% endif %}
+{% endblock %}

@@ -1,0 +1,143 @@
+/* Skel Containers */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container.\31 25\25 {
+ width: 100%;
+ max-width: 63.75em;
+ min-width: 51em;
+}
+.container.\37 5\25 {
+ width: 38.25em;
+}
+.container.\35 0\25 {
+ width: 25.5em;
+}
+.container.\32 5\25 {
+ width: 12.75em;
+}
+.container {
+  width: 51em;
+}
+
+@media screen and (max-width: 1680px) {
+.container.\31 25\25 {
+   width: 100%;
+   max-width: 63.75em;
+   min-width: 51em;
+ }
+.container.\37 5\25 {
+  width: 38.25em;
+ }
+.container.\35 0\25 {
+  width: 25.5em;
+ }
+.container.\32 5\25 {
+  width: 12.75em;
+ }
+.container {
+  width: 51em;
+}
+}
+
+@media screen and (max-width: 1280px) {
+.container.\31 25\25 {
+   width: 100%;
+   max-width: 60em;
+   min-width: 48em;
+}
+.container.\37 5\25 {
+  width: 36em;
+}
+.container.\35 0\25 {
+  width: 24em;
+}
+.container.\32 5\25 {
+  width: 12em;
+}
+.container {
+  width: 48em;
+}
+}
+
+@media screen and (max-width: 980px) {
+
+.container.\31 25\25 {
+   width: 100%;
+   max-width: 118.75%;
+   min-width: 95%;
+ }
+.container.\37 5\25 {
+  width: 71.25%;
+ }
+.container.\35 0\25 {
+  width: 47.5%;
+ }
+.container.\32 5\25 {
+  width: 23.75%;
+ }
+.container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+.container.\31 25\25 {
+   width: 100%;
+   max-width: 118.75%;
+   min-width: 95%;
+ }
+.container.\37 5\25 {
+  width: 71.25%;
+ }
+.container.\35 0\25 {
+  width: 47.5%;
+ }
+.container.\32 5\25 {
+  width: 23.75%;
+ }
+.container {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 736px) {
+.container.\31 25\25 {
+   width: 100%;
+   max-width: 112.5%;
+   min-width: 90%;
+ }
+.container.\37 5\25 {
+  width: 67.5%;
+ }
+.container.\35 0\25 {
+  width: 45%;
+ }
+.container.\32 5\25 {
+  width: 22.5%;
+ }
+.container {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.container.\31 25\25 {
+   width: 100%;
+   max-width: 125%;
+   min-width: 100%;
+ }
+.container.\37 5\25 {
+  width: 75%;
+ }
+.container.\35 0\25 {
+  width: 50%;
+ }
+.container.\32 5\25 {
+  width: 25%;
+ }
+.container {
+    width: 100% !important;
+  }
+}

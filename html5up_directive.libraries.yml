@@ -1,0 +1,12 @@
+global-styling:
+  version: '0.3'
+  css:
+    base:
+      assets/css/main.css: {}
+      assets/css/skel.css: {}
+      assets/css/skel_gird.css: {}
+      assets/css/font-awesome.min.css: {}
+  js:
+      assets/js/skel.min.css: {}
+      assets/js/util.js: {}
+      assets/js/main.css: {}

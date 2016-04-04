@@ -1,0 +1,18 @@
+html5up_directive.mobile:
+  label: mobile
+  mediaQuery: '(min-width: 0px)'
+  weight: 0
+  multipliers:
+   - 1x
+html5up_directive.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 959px)'
+  weight: 1
+  multipliers:
+    - 1x
+html5up_directive.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 960px)'
+  weight: 2
+  multipliers:
+    - 1x

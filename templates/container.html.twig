@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Theme override of a container used to wrap child elements.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the containing element.
+ * - children: The rendered child elements of the container.
+ * - has_parent: A flag to indicate that container has one or more parent containers.
+ *
+ * @see template_preprocess_container()
+ */
+#}
+{%
+  set classes = [
+    has_parent ? 'js-form-wrapper',
+    has_parent ? 'form-wrapper',
+  ]
+%}
+{#
+/**
+ * <!-- Let's kill some Drupal default container madness -->
+ * <!-- <div{{ attributes.addClass(classes) }}> -->
+ */
+#}
+    {{ children }}
+{#
+/**
+ * <!-- </div> -->
+ */
+#}

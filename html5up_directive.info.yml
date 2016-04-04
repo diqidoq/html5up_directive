@@ -1,0 +1,43 @@
+type: theme
+base theme: false
+name: 'HTML5up Directive'
+description: '<a href="https://html5up.net">HTML5 UP!</a> theme <a href="http://html5up.net/directive">Directive</a> ported to Drupal 8. Markup altered to fit Drupal data rendering and dropped IE8 support due to the <a href="https://support.microsoft.com/en-us/lifecycle#gp/msl-ie-dotnet-an">end of official Windows IE8 support and its lifecycle</a>.'
+version: '0.3'
+core: '8.x'
+
+regions:
+  header: Header
+  help: Help
+  highlighted: Highlighted
+  content: Content
+  featured: Featured
+  footer: Footer
+
+libraries:
+  - 'html5up_directive/global-styling'
+
+libraries-override:
+  # Remove individual stylesheets.
+  core/drupal.batch: false
+  core/drupal.collapse: false
+  core/drupal.dropbutton: false
+  core/drupal.vertical-tabs: false
+  filter/drupal.filter: false
+  system/admin: false
+  text/drupal.text: false
+  system/base:
+      css:
+        component:
+          css/components/ajax-progress.module.css: false
+          css/components/autocomplete-loading.module.css: false
+          css/components/tabledrag.module.css: false
+
+  file/drupal.file:
+      css:
+        theme:
+          css/file.admin.css: false
+
+  filter/drupal.filter.admin:
+      css:
+        theme:
+          css/filter.admin.css: false

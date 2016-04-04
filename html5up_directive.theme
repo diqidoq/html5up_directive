@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ *
+ * Adds body classes if certain regions have content.
+ */
+function html5up_directive_preprocess_page(&$variables) {
+
+}
