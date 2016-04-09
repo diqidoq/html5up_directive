@@ -76,25 +76,25 @@
 <!-- <span class="logo icon fa-paper-plane-o"></span>
 replaced by Drupal site logo -->
 <a id="main-content" tabindex="-1"></a>
- {{ page.header }}
+{{ page.header }}
 </div>
 <!-- Main -->
 <div id="main">
 {% if page.highlighted %}
-  <header id="highlighted" class="major container 75%">
-  {{ page.highlighted }}
-  </header>
+ <header id="highlighted" class="major container 75%">
+ {{ page.highlighted }}
+ </header>
 {% endif %}
 {% if page.featured_top %}
-  <div id="featured">
-  {{ page.featured }}
-  </div>
+<div id="featured">
+ {{ page.featured }}
+</div>
 {% endif %}
 <a id="main-content" tabindex="-1"></a>
 <div id="content" class="box alt container" role="main">
-  {{ page.message }}
-  {{ page.help }}
-  {{ page.content }}
+{{ page.message }}
+{{ page.help }}
+{{ page.content }}
 </div>
 {% if page.featured %}
 <footer class="major container 75%">
@@ -103,23 +103,26 @@ replaced by Drupal site logo -->
 {% endif %}
 </div>
 <div id="footer">
-  <div class="container 75%">
-    {% if page.footer %}
-    {{ page.footer }}
-    {% endif %}
-  <!-- @TODO: it is recommended to rather use a block or menu to show this social links -->
-  <ul class="icons">
-    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-    <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-    <li><a href="#" class="icon fa-behance"><span class="label">Behance</span></a></li>
-  </ul>
-  <!-- This credits contain hard written data and can also be added with a custom block -->
-  <ul class="copyright">
-    <li>&copy; 2016 MAROQQO digital media</li>
-    <li>All rights reserved.</li>
-    <li><a href="imprint.html">Imprint</a></li>
-  </ul>
+ <div class="container 75%">
+  {% if page.footer %}
+  {{ page.footer }}
+  {% endif %}
+  {% if is_front %}
+   <h1>IS FRONT</h1>
+  {% endif %}
+ <!-- @TODO: it is recommended to rather use a block or menu to show this social links -->
+ <ul class="icons">
+  <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+  <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+  <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+  <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+  <li><a href="#" class="icon fa-behance"><span class="label">Behance</span></a></li>
+ </ul>
+ <!-- This credits contain hard written data and can also be added with a custom block -->
+ <ul class="copyright">
+  <li>&copy; 2016 MAROQQO digital media</li>
+  <li>All rights reserved.</li>
+  <li><a href="imprint.html">Imprint</a></li>
+ </ul>
  </div>
 </div>
