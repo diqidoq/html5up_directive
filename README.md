@@ -1,7 +1,7 @@
 # html5up_directive
 HTML5! Up - Directive theme for Drupal 8 Twig
 
-[HTML5 UP!](https://html5up.net) theme [Directive](http://html5up.net/directive) ported to Drupal 8. Markup altered to fit Drupal data rendering and dropped IE8 support due to the [end of official Windows IE8 support and its lifecycle](https://support.microsoft.com/en-us/lifecycle#gp/msl-ie-dotnet-an).
+[HTML5 UP!](https://html5up.net) theme [Directive](http://html5up.net/directive) ported to Drupal 8 (Link to Drupal project [HTML5 UP! Directive sandbox](https://www.drupal.org/sandbox/digidog/2703715) of [diqidoq](http://drupal.org/u/diqidoq) at Drupal.org). Markup altered to fit Drupal data rendering and dropped IE8 support due to the [end of official Windows IE8 support and its lifecycle](https://support.microsoft.com/en-us/lifecycle#gp/msl-ie-dotnet-an).
 
 
 ## Some notes
